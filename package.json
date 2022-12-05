@@ -1,0 +1,25 @@
+{
+  "name": "adventjs2022",
+  "version": "1.0.0",
+  "description": "Solving the AdventJS 2022 challenges",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Cesk",
+  "license": "ISC",
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "./node_modules/ts-standard/eslintrc.json"
+    ]
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "ts-standard": "^12.0.1",
+    "typescript": "^4.9.3"
+  }
+}
