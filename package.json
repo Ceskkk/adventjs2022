@@ -2,7 +2,6 @@
   "name": "adventjs2022",
   "version": "1.0.0",
   "description": "Solving the AdventJS 2022 challenges",
-  "type": "module",
   "scripts": {
     "dev": "ts-node src/index.ts"
   },
