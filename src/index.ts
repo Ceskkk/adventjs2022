@@ -2,10 +2,8 @@
  * File used to execute the challenges
  */
 
-import getGiftsToRefill from './challenge07'
+import checkPart from './challenge08'
 
-const a1 = ['bici', 'coche', 'bici', 'bici']
-const a2 = ['coche', 'bici', 'muñeca', 'coche']
-const a3 = ['bici', 'pc', 'pc']
-
-console.log(getGiftsToRefill(a1, a2, a3))
+console.log(checkPart('uwu'))
+console.log(checkPart('miidim'))
+console.log(checkPart('midu'))
