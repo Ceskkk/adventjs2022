@@ -2,8 +2,7 @@
  * File used to execute the challenges
  */
 
-import countTime from './challenge09'
+import checkJump from './challenge10'
 
-countTime([0, 1, 1, 0, 1])
-// console.log(countTime([0, 0, 0, 1]))
-// console.log(countTime([0, 0, 1, 0, 0]))
+console.log(checkJump([1, 3, 8, 5, 2]))
+console.log(checkJump([1, 7, 3, 5]))
