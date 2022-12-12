@@ -2,7 +2,7 @@
  * File used to execute the challenges
  */
 
-import checkJump from './challenge10'
+import getCompleted from './challenge11'
 
-console.log(checkJump([1, 3, 8, 5, 2]))
-console.log(checkJump([1, 7, 3, 5]))
+// getCompleted('01:00:00', '03:00:00')
+console.log(getCompleted('03:30:30', '05:50:50'))
