@@ -2,8 +2,8 @@
  * File used to execute the challenges
  */
 
-import checkPart from './challenge08'
+import countTime from './challenge09'
 
-console.log(checkPart('uwu'))
-console.log(checkPart('miidim'))
-console.log(checkPart('midu'))
+countTime([0, 1, 1, 0, 1])
+// console.log(countTime([0, 0, 0, 1]))
+// console.log(countTime([0, 0, 1, 0, 0]))
