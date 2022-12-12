@@ -2,7 +2,11 @@
  * File used to execute the challenges
  */
 
-import getCompleted from './challenge11'
+import selectSleigh from './challenge12'
 
-// getCompleted('01:00:00', '03:00:00')
-console.log(getCompleted('03:30:30', '05:50:50'))
+console.log(selectSleigh(30, [
+  { name: 'Dasher', consumption: 0.3 },
+  { name: 'Dancer', consumption: 0.5 },
+  { name: 'Rudolph', consumption: 0.7 },
+  { name: 'Midu', consumption: 1 }
+]))

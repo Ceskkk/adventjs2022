@@ -19,8 +19,8 @@ getCompleted('03:30:30', '05:50:50') // '3/5`
 
 Ten en cuenta:
 
-- El formato de la hora es hh:mm:ss.
-- El formato de la salida es un string a/b donde a es la porción de la tarea que ya se ha completado y b es la porción de la tarea que falta por completar.
-- La porción siempre se muestra con la menor fracción posible. (por ejemplo, nunca se mostraría 2/4 porque se puede representar como 1/2).
-- Si ya se ha completado la tarea, la fracción sería 1/1.
-- Ningun elfo ha sido maltradado durante la ejecución de este reto ni han tenido que usar Scrum de verdad.
+1 - El formato de la hora es hh:mm:ss.
+2 - El formato de la salida es un string a/b donde a es la porción de la tarea que ya se ha completado y b es la porción de la tarea que falta por completar.
+3 - La porción siempre se muestra con la menor fracción posible. (por ejemplo, nunca se mostraría 2/4 porque se puede representar como 1/2).
+4 - Si ya se ha completado la tarea, la fracción sería 1/1.
+5 - Ningun elfo ha sido maltradado durante la ejecución de este reto ni han tenido que usar Scrum de verdad.
