@@ -2,11 +2,15 @@
  * File used to execute the challenges
  */
 
-import selectSleigh from './challenge12'
+import getFilesToBackup from './challenge13'
 
-console.log(selectSleigh(30, [
-  { name: 'Dasher', consumption: 0.3 },
-  { name: 'Dancer', consumption: 0.5 },
-  { name: 'Rudolph', consumption: 0.7 },
-  { name: 'Midu', consumption: 1 }
-]))
+const lastBackup = 1546300800
+const changes = [
+  [1, 1546300800],
+  [2, 1546300800],
+  [1, 1546300900],
+  [1, 1546301000],
+  [3, 1546301100]
+]
+
+console.log(getFilesToBackup(lastBackup, changes))
